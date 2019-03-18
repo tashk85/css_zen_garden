@@ -1,0 +1,179 @@
+/* basic elements */
+@import url('https://fonts.googleapis.com/css?family=Raleway|Sniglet');
+
+* {
+	margin: 0;
+	padding: 0;
+	}
+
+body { 
+	color: #fff; 
+	background: #00a19a;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	}
+
+h1, h2, h3 {
+	font-family: 'Sniglet', cursive;
+	font-style: normal;
+	font-weight: 400;
+	padding-bottom: 10px;
+}
+
+h1 {
+	font-size: 5rem;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	padding-bottom: 10px;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: #f5df3b;
+	font-family: 'Raleway', sans-serif;
+}
+
+.intro {
+	display: flex;
+	flex-direction: column;
+}
+header {
+	background: url("images/geometric_white.png") no-repeat center fixed;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+header h1 {
+	text-align: center;
+	
+}
+
+.summary {
+	/* background-color: #162aa3; */
+	width: 100%;
+	padding: 50px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.summary p {
+	font-size: 1.3em;
+	text-align: center;
+	width: 800px;
+}
+
+.summary p:first-child {
+	border-top: 1px solid #f5df3b;
+	padding-top: 30px;
+}
+
+.summary p:last-child {
+	border-bottom: 1px solid #f5df3b;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.main.supporting {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.preamble {
+	background-color: #d4c7b4;
+	border: 8px solid white;
+	margin: 50px;
+	padding: 50px;
+	text-align: center;
+}
+
+.explanation, .participation, .benefits, .requirements {
+	width: 40%;
+	align-self: baseline;
+	margin: 35px;
+	padding: 25px;
+}
+
+.main h3{
+	font-size: 1.5rem;
+}
+
+.zen-resources {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+}
+
+.zen-resources h3 {
+	padding: 10px;
+}
+
+.zen-resources li {
+	display: inline-flex
+}
+
+.zen-resources a {
+	padding: 10px;
+}
+
+footer {
+	width: 100%;
+	padding: 40px;
+	text-align: center;
+	background-color: #d4c7b4;
+	border-top: 1px solid white;
+}
+
+footer a {
+	color: #00a19a;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	font-size: 1rem;
+	padding: 10px;
+}
+
+.design-selection {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.design-selection h3 {
+	align-self: flex-start;
+}
+
+.design-selection li {
+	display: inline-flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 20%;
+	padding: 10px;
+	border-top: 1px solid white;
+}
+
+.design-selection a {
+	flex-basis: 25% | auto;
+	/* padding: 10px; */
+}
